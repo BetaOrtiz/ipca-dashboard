@@ -1,0 +1,53 @@
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+h3 {
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --green: #1c8538;
+  --orange: #f57600;
+  --orange-hover-disabled: #c76000;
+  --blue-hover: #005079;
+  --blue-caixa: #1c60ab;
+  --blue: #18579b;
+}
+
+a,
+a:link,
+a:visited a:active {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+.select {
+  width: 49%;
+  height: 50px;
+}
+
+.btn {
+  margin-top: 20px;
+  height: auto;
+  background-color: #0086c7;
+  padding: 8px 12px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  outline: none;
+  min-width: 130px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background-color: #005079;
+}
+
+.btn:disabled {
+  background-color: #70848f;
+  cursor: not-allowed;
+}
+
+#chart-title {
+  align-self: center;
+  margin-top: 35px;
+  text-align: center;
+  padding-top: 25px;
+}
